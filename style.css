@@ -1,0 +1,625 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+    /* position: relative; */
+    
+}
+
+header {
+    max-width: 1080px;
+    /* width: 80%; */
+    margin-right: auto;
+    margin-left: auto;
+    max-height: 70px;
+    color:#333;
+    
+    
+}
+
+.header-inner {
+    max-width: 1080px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.header-copy {
+    color:#333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-img {
+    max-width: 130px;
+    height: auto;
+    margin-right: 10%;
+    margin-left: 15px;
+}
+
+ .header-btn{
+    background-color: #FFE000;
+    border-radius: 24px;
+    max-width: 81px;
+    max-height: 18px;
+    text-align: center;
+    padding: 15px 35px;
+    font-weight: bold;
+    margin-right: 15px;
+    
+}
+
+
+.btn {
+    color:#333;
+    box-shadow: 3px 3px 10px  #00000029;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.head-main {
+    width: 100%;
+    height: auto;
+    /* width: 100%;
+    height: 448px; */
+}
+
+.headmain-inner {
+    max-width: 1080px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 10%;
+}
+
+.headmain-ttl {
+    color: #333333;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.7;
+}
+
+.headmain-copy p {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-top: 34px;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+.heading-list1, .heading-list2 {
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 32px;
+    box-shadow: 3px 3px 10px  #00000029;
+    padding: 15px 39px;
+    margin-right: 10px;
+
+}
+
+.heading-list1 {
+    text-decoration: none;
+    border-radius: 32px;
+    color: #FFFFFF;
+    background:#109954;
+    margin-bottom: 10px;
+}
+
+.heading-list2 {
+    width: 144px;
+    text-decoration: none;
+    border-radius: 32px;
+    border: 2px solid #109954;
+    background: #fff;
+}
+
+.heading-a1 {
+    color:#fff;
+}
+
+.heading-a2 {
+    color: #109954;
+}
+
+.heading-img {
+    max-width: 560px;
+    width: 43%;
+    height: auto;
+}
+
+.topic {
+    height: 36px;
+    max-width: 1080px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.topic-n {
+    margin-top: 20px;
+    margin-bottom: 101px;
+}
+
+
+/* 緑の横線と文字を横に並べる */
+.topic-ttl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.t-ttl {
+    color: #333333;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 50px;
+}
+
+.square {
+    width: 200px;
+    height: 4px;
+    background-color: #109954;
+}
+
+.s-inner {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    /* margin-top: 109px; */
+    align-items: center;
+}
+
+.srv {
+    color: #333333;
+    text-align:center;
+    margin: 30px auto 0;
+}
+
+.s-img {
+    max-width: 200px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.s-innerbox2 {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.img-about {
+    max-width: 450px;
+    height: auto;
+    box-shadow: 0 11px 20px #00000029;
+    /* margin: 40px; */
+}
+
+.img-about1 {
+    margin-left: 40px;
+    margin-right: 70px;
+}
+
+.img-about2 {
+    margin-right: 40px;
+    margin-left: 70px;
+}
+
+.more {
+    background: #109954;
+    color: #fff;
+    border-radius: 24px;
+    width: 81px;
+    height: 18px;
+    text-align: center;
+    padding: 15px 35px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.about {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.a-box {
+    max-width: 1080px;
+    /* max-width: 90%; */
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    /* padding: 0 70px; */
+}
+
+/* .about-copy {
+    padding: 0 40px 0 70px;
+} */
+
+.about-copy1 {
+    margin-left: 70px;
+}
+
+.about-copy2 {
+    margin-right:70px;
+}
+
+.about-p {
+    color: #333333;
+    line-height: 1.7;
+    /* width: 450px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: -0.1em;
+}
+
+.about-ttl {
+    font-size: 32px;
+    color: #109954;
+    font-weight: bold;
+}
+
+.news-inner {
+    /* max-width:1080px; */
+    /* max-width: 80%;
+    width: 100%; */
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.news-box {
+    display: flex;
+    align-items: center;
+    padding-top: 18px;
+    /* padding-top: 30px; */
+    border-top: 1px solid #D6D6D6;
+    margin-top: 18px;
+}
+
+.news-box3 {
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.news-img {
+    width: 300px;
+    height: auto;
+}
+.news-p {
+    max-width: 650px;
+    margin-right: 16px;
+}
+
+.ct {
+    display: inline-block;
+    font-size: 14px;
+    color: #109954;
+    background: #fff;
+    border-radius: 13px;
+    border: 2px solid #109954;
+    padding: 6px 23px;
+    text-align: center;
+    margin-left: 10px;
+}
+    /* 3記事の「カテゴリ」を縦のラインにまっすぐ揃える、というのができませんでした。以下のような「position」を使用した方法も試しましたが、画面サイズを変えると動いてしまいます。画面に固定した状態でこの3つの「カテゴリ」をまっすぐ揃える方法が知りたいです。*/
+    /* position: absolute;
+    right:0;
+    left:0;
+    margin:auto;
+    width: 101px; */
+
+
+
+.footer-btn {
+    display: block;
+    margin: 50px auto 100px;
+    
+}
+
+.ttl, .news-p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 20px 0;
+    color: #333333;
+}
+
+time , .ttl {
+    color: #333333;;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    height: 135px;
+    background: #E8E8E8;
+    /* position: absolute;
+    bottom: 0; */
+}
+
+.footer-inner {
+    max-width: 80%;
+    /* max-width:1080px; */
+    padding-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.footer-logo {
+    width: 70px;
+    height: 70px;
+}
+.f-nav ul {
+    margin-top: 0;
+    white-space: nowrap;
+}
+
+.f-li {
+    display: inline-block;
+    
+    font-size: 14px;
+    line-height: 1.7;
+    border-right: 1px solid #333;
+    padding:0 18px;
+    color:#333;
+}
+
+.last-li {
+    border-right: none;
+}
+
+/* footer右のメニューの「サイトマップ」の右側にある「bourder-right」の縦線だけ、構造擬似クラス
+.f-li:last-child{
+    border-right: none;
+}
+で消そうとしましたが、うまくいきませんでした。
+
+上記のcssを実行すると4つの「f-li」全てに「border-right:none;」が適用されてしまい、目的である最後の要素「サイトマップ」だけに適用することができませんでした。
+
+「構造擬似クラス」でググり、表記の仕方など改めて確認しましたが、問題解決にはいたりませんでした。
+
+今回は「サイトマップ」にのみ別のクラスを付与してborder-right:none;適用しています。
+
+*/
+
+.f-copy {
+    color: #333333;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+
+@media screen and (max-width:768px){
+    /* body {
+        padding: 0 15px;
+    } */
+    html {
+        height: 100%;
+    }
+    
+    body {
+        height: 100%;
+        font-family: YuGothic,'Yu Gothic',sans-serif;
+        /* position: relative; */
+    }
+    .header-inner {
+        margin-bottom: 21px;
+    }
+    .header-btn {
+        margin-right: 15px;
+    }
+
+    .head-main {
+        margin-bottom: 100px;
+    }
+
+
+/* この子要素は */
+    .headmain-inner{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 auto 100px;
+    }
+    .headmain-ttl {
+        font-size: 28px;
+        width: 196px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .headmain-copy{
+        font-size: 16px;
+        text-align: center;
+    }
+
+
+    .heading-img{
+        width: 100vw;
+        height: auto;
+    }
+    .heading-list1, .heading-list2 {
+        display: block;
+        margin: 15px auto;
+    }
+
+    .heading-list1 {
+        width: 88px;
+        padding:15px 39px;
+    }
+    .heading-list2 {
+        width: 144px;
+        /* margin-bottom: 100px; */
+    }
+
+    .topic {
+        margin-bottom: 80px;
+    }
+    .topic-s{
+        /* margin-top: 450px; */
+    }
+
+    .t-ttl {
+        font-size: 28px;
+        margin:0  5%;
+    }
+    .square {
+        max-width: 93px;
+        height: 4px;
+    }
+    .s-inner{
+        display: flex;
+        flex-direction: column;
+    }
+    .s-img {
+        margin-top: 50px auto;
+    }
+
+    .a-box {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+        height: auto;
+        padding: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .img-about {
+        width: 100%;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .more{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .about p{
+        width: 100%;
+    }
+    .about-copy1, .about-copy2 {
+        margin: 0;
+    }
+    
+/* <br>の無効化 */
+    br {
+        display: none;
+    }
+    .about-p {
+        color: #333333;
+        line-height: 1.7;
+        /* width: 450px; */
+        margin-top: 30px;
+        margin-bottom: 30px;
+        letter-spacing: -0.2em;
+    }
+    
+
+    .a-box2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-ttl{
+        margin-top: 50px;
+    }
+
+    .news-inner{
+        padding: 0%;
+    }
+
+
+    .news-box{
+        width: 90%;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    footer {
+        width: 100%;
+        height: 289px;
+        box-sizing: border-box;
+        /* position: absolute;
+        bottom: 0; */
+    }
+
+
+    .footer-inner{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+        .footer-logo {
+            margin-bottom: 23px;
+        }
+
+        .f-nav ul {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .f-copy {
+            margin: 40px auto 20px;
+        }
+
+/* 以下の「nth-child」でフッターの「特定商取引取引法に基づく表記」と「お問い合わせ」の順を入れ替えようとしたのですが、なぜか適用されません。
+
+1　スペルミスチェック
+2　セレクタを
+「.f-nav ul li」
+「.f-nav ul .f-li」
+「.f-nav li」
+と試したが反応なし。
+
+3　（）内の数字を0〜3試したが反応なし。
+4　（）内の数字を1にして、わかりやすいよう試しに「color: red;」と色を変えて実験してみると4つ全てが赤くなった。
+
+*/
+
+        ul .f-li:nth-child(1) {
+            order: 2;
+        }
+        
+        .f-li {
+            border-right: none;
+        }
+
+        
+
+
+}
+
+
